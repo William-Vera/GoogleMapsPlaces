@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Mover el mapa a una vista 2D
         CameraUpdate camUpd1 =
-                CameraUpdateFactory.newLatLngZoom(new LatLng(-1.0451266118102338, -79.63784469450664), 18);
+                CameraUpdateFactory.newLatLngZoom(new LatLng(-1.0124715285981634, -79.46798611077189), 18);
         mapa.moveCamera(camUpd1);
 
         mapa.setOnMapClickListener(this);
